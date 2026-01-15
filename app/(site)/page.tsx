@@ -35,7 +35,7 @@ const projects = [
     slug: "daily-ai-wire",
     liveUrl: "https://dailyaiwire.news",
     demoUrl: null,
-    localImage: null // Use placeholder
+    localImage: "/daily_ai_wire.png"
   },
   {
     _id: "novara",
@@ -47,7 +47,7 @@ const projects = [
     slug: "novara",
     liveUrl: null, // "Glofy isn't ours" - Removed link
     demoUrl: null,
-    localImage: null
+    localImage: "/novara.png"
   },
   {
     _id: "tachyon",
@@ -59,7 +59,7 @@ const projects = [
     slug: "tachyon",
     liveUrl: "https://devran.cloud/",
     demoUrl: null,
-    localImage: null
+    localImage: "/tachyon.png"
   }
 ];
 
