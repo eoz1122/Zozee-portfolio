@@ -15,42 +15,48 @@ export default function About({ content, imageSrc }: AboutProps) {
         <section className="col-span-full py-24" id="about">
             <div className="responsive-wrapper flex flex-col items-center text-center">
                 <h2 className="text-3xl md:text-5xl font-bold text-[rgb(var(--txt-heading))] mb-2">
-                    Solutions <span className="text-[rgb(var(--txt-heading))]">&lt;Architect&gt;</span>
+                    I Bring Order to <span className="text-[rgb(var(--color-primary))]">Entropy</span>
                 </h2>
-                <p className="text-[rgb(var(--txt-body))] mb-16 text-lg">
-                    System Architect with over 10 years of experience in distributed systems.
+                <p className="text-[rgb(var(--txt-body))] mb-20 text-xl font-light opacity-80 max-w-2xl">
+                    Chaotic systems are destined to fail. I impose structure upon the void.
                 </p>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center text-left">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center text-left">
 
                     {/* Checklist Area */}
-                    <div className="flex flex-col gap-10">
-                        <div className="flex gap-4">
-                            <FiCheckSquare className="text-4xl text-[rgb(var(--color-primary))] flex-shrink-0 mt-1" />
+                    <div className="flex flex-col gap-12">
+                        <div className="flex gap-6 group">
+                            <div className="mt-1 w-12 h-12 rounded-full border border-[rgb(var(--color-primary))] flex items-center justify-center flex-shrink-0 group-hover:bg-[rgb(var(--color-primary))]/10 transition-colors">
+                                <FiCheckSquare className="text-2xl text-[rgb(var(--color-primary))]" />
+                            </div>
                             <div>
-                                <h4 className="text-xl font-bold text-[rgb(var(--txt-heading))] mb-2">Expert in Distributed Systems.</h4>
-                                <p className="text-[rgb(var(--txt-body))] leading-relaxed">
-                                    Designing fault-tolerant, high-availability architectures that scale globally.
+                                <h4 className="text-2xl font-bold text-[rgb(var(--txt-heading))] mb-2">The Visionary.</h4>
+                                <p className="text-[rgb(var(--txt-body))] text-lg leading-relaxed opacity-80">
+                                    Seeing the end before the beginning. Designing systems that do not just solve today's problems, but anticipate tomorrow's.
                                 </p>
                             </div>
                         </div>
 
-                        <div className="flex gap-4">
-                            <FiCheckSquare className="text-4xl text-[rgb(var(--color-primary))] flex-shrink-0 mt-1" />
+                        <div className="flex gap-6 group">
+                            <div className="mt-1 w-12 h-12 rounded-full border border-[rgb(var(--color-primary))] flex items-center justify-center flex-shrink-0 group-hover:bg-[rgb(var(--color-primary))]/10 transition-colors">
+                                <FiCheckSquare className="text-2xl text-[rgb(var(--color-primary))]" />
+                            </div>
                             <div>
-                                <h4 className="text-xl font-bold text-[rgb(var(--txt-heading))] mb-2">Specializing in Cloud Native.</h4>
-                                <p className="text-[rgb(var(--txt-body))] leading-relaxed">
-                                    Deep expertise in Kubernetes, AWS, and serverless infrastructure.
+                                <h4 className="text-2xl font-bold text-[rgb(var(--txt-heading))] mb-2">The Lawgiver.</h4>
+                                <p className="text-[rgb(var(--txt-body))] text-lg leading-relaxed opacity-80">
+                                    Defining the constraints that enable freedom. Protocols, schemas, and contracts are the scripture of the machine.
                                 </p>
                             </div>
                         </div>
 
-                        <div className="flex gap-4">
-                            <FiCheckSquare className="text-4xl text-[rgb(var(--color-primary))] flex-shrink-0 mt-1" />
+                        <div className="flex gap-6 group">
+                            <div className="mt-1 w-12 h-12 rounded-full border border-[rgb(var(--color-primary))] flex items-center justify-center flex-shrink-0 group-hover:bg-[rgb(var(--color-primary))]/10 transition-colors">
+                                <FiCheckSquare className="text-2xl text-[rgb(var(--color-primary))]" />
+                            </div>
                             <div>
-                                <h4 className="text-xl font-bold text-[rgb(var(--txt-heading))] mb-2">Engineering Leadership.</h4>
-                                <p className="text-[rgb(var(--txt-body))] leading-relaxed">
-                                    Mentoring teams and defining technical strategy for complex projects.
+                                <h4 className="text-2xl font-bold text-[rgb(var(--txt-heading))] mb-2">The Creator.</h4>
+                                <p className="text-[rgb(var(--txt-body))] text-lg leading-relaxed opacity-80">
+                                    Building the foundations of realities where billions of transactions live, breathe, and die in milliseconds.
                                 </p>
                             </div>
                         </div>

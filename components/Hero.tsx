@@ -12,26 +12,28 @@ export default function Hero({ heading, tagline }: HeroProps) {
             <div className="responsive-wrapper grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
                 {/* Text Content */}
-                <div className="flex flex-col gap-6 text-center md:text-left z-10">
-                    <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-[rgb(var(--txt-heading))] leading-[1.1]">
-                        System <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(var(--color-primary))] to-purple-500">Architect</span>
+                <div className="flex flex-col gap-8 text-center md:text-left z-10">
+                    <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter text-[rgb(var(--txt-heading))] leading-[1]">
+                        The <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(var(--color-primary))] to-purple-600">Architect</span>
                     </h1>
 
-                    <div className="font-mono text-[rgb(var(--txt-link))] text-lg">
-                        &#123; Kubernetes, AWS, Go, Python, Terraform, Microservices... &#125;
-                    </div>
+                    <div className="h-px w-24 bg-gradient-to-r from-[rgb(var(--color-primary))] to-transparent mx-auto md:mx-0 opacity-50" />
 
-                    <p className="text-[rgb(var(--txt-body))] text-lg md:text-xl max-w-lg mx-auto md:mx-0">
-                        Designing scalable, resilient, and cloud-native distributed systems for high-growth enterprises.
+                    <p className="text-[rgb(var(--txt-body))] text-xl md:text-2xl max-w-2xl mx-auto md:mx-0 font-light leading-relaxed">
+                        I do not build. I design the laws by which digital worlds exist.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center md:justify-start">
-                        <Link href="#projects" className="btn-primary inline-flex items-center justify-center">
-                            See my dev work
-                        </Link>
-                        <Link href="/Richard-Acquaye_CV.pdf" target="_blank" className="btn-secondary inline-flex items-center justify-center">
-                            Download CV
-                        </Link>
+                    <div className="flex flex-col sm:flex-row gap-6 mt-6 justify-center md:justify-start">
+                        <Button href="#projects" className="px-8 py-4 text-lg">
+                            Witness the Work
+                        </Button>
+                        <Button
+                            href="mailto:contact@aaronazadi.com"
+                            btnType="secondary"
+                            className="px-8 py-4 text-lg"
+                        >
+                            Consult the Oracle
+                        </Button>
                     </div>
                 </div>
 
