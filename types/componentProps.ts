@@ -4,19 +4,19 @@ import { challenge, factor, solution } from "./data";
 // ICON COMPONENTS
 interface iconList {
   iconType?:
-    | "code"
-    | "externalLink"
-    | "email"
-    | "github"
-    | "info"
-    | "linkedin"
-    | "medal"
-    | "medium"
-    | "question"
-    | "route"
-    | "sword"
-    | "video"
-    | "wand";
+  | "code"
+  | "externalLink"
+  | "email"
+  | "github"
+  | "info"
+  | "linkedin"
+  | "medal"
+  | "medium"
+  | "question"
+  | "route"
+  | "sword"
+  | "video"
+  | "wand";
 }
 
 export type svgIconProps = {
@@ -47,6 +47,7 @@ export interface buttonProps extends iconProps {
   isFile?: boolean;
   showIcon?: boolean;
   btnType?: "primary" | "secondary" | "tertiary";
+  className?: string;
   children: React.ReactNode;
 }
 

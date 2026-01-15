@@ -12,6 +12,7 @@ export default function Button({
   showIcon = false,
   iconType,
   size,
+  className,
   children,
 }: buttonProps) {
   const buttonStyle = {
@@ -22,7 +23,7 @@ export default function Button({
   return (
     <Link
       href={href}
-      className={`cta-btn ${buttonStyle[btnType]} w-full`}
+      className={`cta-btn ${buttonStyle[btnType]} ${className || ""} w-full`}
       target={linkType === "external" ? "_blank" : "_self"}
       download={isFile}
       prefetch={false}
