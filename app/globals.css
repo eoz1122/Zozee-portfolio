@@ -65,8 +65,6 @@
   --color-text-muted: 156, 163, 175;
 
   /* Mappings */
-  --bg: var(--color-bg);
-  --header-bg: var(--color-header-bg);
   --txt-heading: var(--color-text-heading);
   --txt-body: var(--color-text-body);
   --txt-link: var(--color-primary);

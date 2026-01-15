@@ -30,9 +30,9 @@ export default function About({ content, imageSrc }: AboutProps) {
                                 <FiCheckSquare className="text-2xl text-[rgb(var(--color-primary))]" />
                             </div>
                             <div>
-                                <h4 className="text-2xl font-bold text-[rgb(var(--txt-heading))] mb-2">The Visionary.</h4>
+                                <h4 className="text-2xl font-bold text-[rgb(var(--txt-heading))] mb-2">The Liberator.</h4>
                                 <p className="text-[rgb(var(--txt-body))] text-lg leading-relaxed opacity-80">
-                                    Seeing the end before the beginning. Designing systems that do not just solve today's problems, but anticipate tomorrow's.
+                                    Breaking down walls. Making knowledge the property of the many, not the few.
                                 </p>
                             </div>
                         </div>
@@ -42,9 +42,9 @@ export default function About({ content, imageSrc }: AboutProps) {
                                 <FiCheckSquare className="text-2xl text-[rgb(var(--color-primary))]" />
                             </div>
                             <div>
-                                <h4 className="text-2xl font-bold text-[rgb(var(--txt-heading))] mb-2">The Lawgiver.</h4>
+                                <h4 className="text-2xl font-bold text-[rgb(var(--txt-heading))] mb-2">The Activist.</h4>
                                 <p className="text-[rgb(var(--txt-body))] text-lg leading-relaxed opacity-80">
-                                    Defining the constraints that enable freedom. Protocols, schemas, and contracts are the scripture of the machine.
+                                    Encoding justice into the system layer. fighting for open access and digital rights.
                                 </p>
                             </div>
                         </div>
@@ -54,9 +54,9 @@ export default function About({ content, imageSrc }: AboutProps) {
                                 <FiCheckSquare className="text-2xl text-[rgb(var(--color-primary))]" />
                             </div>
                             <div>
-                                <h4 className="text-2xl font-bold text-[rgb(var(--txt-heading))] mb-2">The Creator.</h4>
+                                <h4 className="text-2xl font-bold text-[rgb(var(--txt-heading))] mb-2">The Architect.</h4>
                                 <p className="text-[rgb(var(--txt-body))] text-lg leading-relaxed opacity-80">
-                                    Building the foundations of realities where billions of transactions live, breathe, and die in milliseconds.
+                                    Building decentralization into the very DNA of the web.
                                 </p>
                             </div>
                         </div>

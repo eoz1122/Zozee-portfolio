@@ -22,8 +22,9 @@ export default function Hero({ heading, tagline }: HeroProps) {
 
                     <div className="h-px w-24 bg-gradient-to-r from-[rgb(var(--color-primary))] to-transparent mx-auto md:mx-0 opacity-50" />
 
-                    <p className="text-[rgb(var(--txt-body))] text-xl md:text-2xl max-w-2xl mx-auto md:mx-0 font-light leading-relaxed">
-                        I do not build. I design the laws by which digital worlds exist.
+                    <p className="text-[rgb(var(--txt-body))] text-xl md:text-2xl max-w-3xl mx-auto md:mx-0 font-light leading-relaxed">
+                        "Information is power. But like all power, there are those who want to keep it for themselves."
+                        <span className="block mt-4 text-lg opacity-70 italic">- Inspired by Aaron Swartz.</span>
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-6 mt-6 justify-center md:justify-start">

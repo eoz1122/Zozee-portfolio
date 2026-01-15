@@ -20,7 +20,13 @@ export default function ProjectThumbnail({
       {/* Image Section */}
       <Link href={`/projects/${caseStudyUrl}`} className="relative aspect-video overflow-hidden bg-gray-800">
         <Image
-          src={imgSrc.asset._ref && sanityImg(imgSrc.asset._ref).url()}
+          src={
+            // @ts-ignore
+            imgSrc.local
+              // @ts-ignore
+              ? imgSrc.asset._ref
+              : ((imgSrc.asset && imgSrc.asset._ref) ? sanityImg(imgSrc.asset._ref).url() : "https://via.placeholder.com/1280x720/1a1a2e/ffffff?text=Project")
+          }
           alt={imgSrc?.alt ? imgSrc.alt : `${title} project`}
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
