@@ -1,5 +1,5 @@
 import { IconType } from "react-icons";
-import { IoEyeSharp, IoInfiniteSharp, IoGitNetworkSharp, IomedicalSharp } from "react-icons/io5";
+import { IoEyeSharp, IoInfiniteSharp, IoGitNetworkSharp, IoMedicalSharp } from "react-icons/io5";
 
 interface Principle {
     name: string;
@@ -25,7 +25,7 @@ const principles: Principle[] = [
     },
     {
         name: "Harmony",
-        icon: IomedicalSharp,
+        icon: IoMedicalSharp,
         description: "Order from chaos. ACID properties are not suggestions; they are the commandments of consistency."
     },
 ];

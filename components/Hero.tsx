@@ -1,5 +1,8 @@
 import Link from 'next/link';
 import { FiArrowDown } from 'react-icons/fi';
+import Button from "./Button";
+import { sanityImg } from "@/sanity/sanity-utils";
+import Image from "next/image";
 
 interface HeroProps {
     heading: string;
