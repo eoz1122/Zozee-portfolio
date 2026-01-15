@@ -1,6 +1,6 @@
 import { IconType } from "react-icons";
 import {
-    SiKubernetes, SiAmazonaws, SiGo, SiPython,
+    SiKubernetes, SiAmazon, SiGo, SiPython,
     SiTerraform, SiDocker, SiPostgresql, SiRust
 } from "react-icons/si";
 
@@ -12,7 +12,7 @@ interface Skill {
 
 const skills: Skill[] = [
     { name: "Kubernetes", icon: SiKubernetes, description: "Container orchestration and scalable cluster management." },
-    { name: "AWS", icon: SiAmazonaws, description: "Cloud infrastructure architecture and serverless patterns." },
+    { name: "AWS", icon: SiAmazon, description: "Cloud infrastructure architecture and serverless patterns." },
     { name: "Go", icon: SiGo, description: "High-performance backend services and microservices." },
     { name: "Terraform", icon: SiTerraform, description: "Infrastructure as Code (IaC) for reproducible deployments." },
     { name: "Python", icon: SiPython, description: "Data engineering, automation, and backend development." },
