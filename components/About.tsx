@@ -64,15 +64,19 @@ export default function About({ content, imageSrc }: AboutProps) {
 
                     {/* Image Area */}
                     <div className="relative mx-auto w-full max-w-md">
-                        <div className="relative bg-gradient-to-b from-gray-200 to-gray-400 dark:from-gray-800 dark:to-gray-900 rounded-b-full overflow-hidden aspect-[4/5] border border-white/10 shadow-2xl">
-                            {/* Use the passed image source or a placeholder */}
+                        <div className="relative aspect-square overflow-hidden rounded-3xl border border-white/10 shadow-2xl bg-gray-900/50 backdrop-blur-sm">
                             <Image
-                                src={imageSrc || PLACEHOLDER_IMG}
-                                alt="Profile"
+                                src="/avatar_cosmic.png"
+                                alt="The Architect"
                                 fill
-                                className="object-cover"
+                                className="object-cover object-top hover:scale-105 transition-transform duration-700"
+                                priority
                             />
+                            {/* Overlay gradient for mystery */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-[rgb(var(--color-bg))] via-transparent to-transparent opacity-60" />
                         </div>
+                        {/* Decorative elements */}
+                        <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-[rgb(var(--color-primary))]/20 blur-3xl rounded-full opacity-30 animate-pulse" />
                     </div>
 
                 </div>
