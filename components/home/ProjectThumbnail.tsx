@@ -83,6 +83,7 @@ export default function ProjectThumbnail({
           )}
         </div>
       </div>
-    </article>
+    </div>
+    </div >
   );
 }
