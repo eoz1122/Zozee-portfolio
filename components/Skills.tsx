@@ -1,8 +1,7 @@
 import { IconType } from "react-icons";
 import {
-    SiJavascript, SiReact, SiNextdotjs, SiVuedotjs,
-    SiMongodb, SiTailwindcss, SiSass, SiGit,
-    SiFigma, SiNodedotjs, SiTypescript
+    SiKubernetes, SiAmazonaws, SiGo, SiPython,
+    SiTerraform, SiDocker, SiPostgresql, SiRust
 } from "react-icons/si";
 
 interface Skill {
@@ -12,14 +11,14 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-    { name: "JavaScript", icon: SiJavascript, description: "Strong JS knowledge and advanced web development." },
-    { name: "React", icon: SiReact, description: "Building fast and efficient React App's and websites." },
-    { name: "Next.js", icon: SiNextdotjs, description: "Fast server-side rendering, dynamic routing & less code." },
-    { name: "Vue.js", icon: SiVuedotjs, description: "I build web interfaces & one page applications using Vue." },
-    { name: "MongoDB", icon: SiMongodb, description: "Using MongoDB for scalable databases on the backend." },
-    { name: "Git", icon: SiGit, description: "DevOps tool for streamlined source code management." },
-    { name: "TailwindCSS", icon: SiTailwindcss, description: "A utility-first widely used frontend CSS framework." },
-    { name: "CSS & Sass", icon: SiSass, description: "I use SASS as CSS pre-processor." },
+    { name: "Kubernetes", icon: SiKubernetes, description: "Container orchestration and scalable cluster management." },
+    { name: "AWS", icon: SiAmazonaws, description: "Cloud infrastructure architecture and serverless patterns." },
+    { name: "Go", icon: SiGo, description: "High-performance backend services and microservices." },
+    { name: "Terraform", icon: SiTerraform, description: "Infrastructure as Code (IaC) for reproducible deployments." },
+    { name: "Python", icon: SiPython, description: "Data engineering, automation, and backend development." },
+    { name: "Docker", icon: SiDocker, description: "Containerization strategies for consistent environments." },
+    { name: "PostgreSQL", icon: SiPostgresql, description: "Advanced database design, optimization and sharding." },
+    { name: "Rust", icon: SiRust, description: "Systems programming for performance-critical components." },
 ];
 
 export default function Skills() {

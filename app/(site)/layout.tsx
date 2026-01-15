@@ -13,8 +13,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Richard Acquaye - Developer Portfolio",
-  description: "Creative portfolio of Richard Acquaye.",
+  title: "Aaron Azadi - System Architect",
+  description: "Portfolio of Aaron Azadi, a System Architect specializing in distributed systems and cloud infrastructure.",
 };
 
 export default function RootLayout({

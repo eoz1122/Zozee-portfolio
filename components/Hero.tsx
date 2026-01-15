@@ -14,15 +14,15 @@ export default function Hero({ heading, tagline }: HeroProps) {
                 {/* Text Content */}
                 <div className="flex flex-col gap-6 text-center md:text-left z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-[rgb(var(--txt-heading))] leading-[1.1]">
-                        Frontend <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(var(--color-primary))] to-purple-500">Developer</span>
+                        System <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(var(--color-primary))] to-purple-500">Architect</span>
                     </h1>
 
                     <div className="font-mono text-[rgb(var(--txt-link))] text-lg">
-                        &#123; JavaScript, React, Next.js, Vue.js, MongoDB, CSS, Sass... &#125;
+                        &#123; Kubernetes, AWS, Go, Python, Terraform, Microservices... &#125;
                     </div>
 
                     <p className="text-[rgb(var(--txt-body))] text-lg md:text-xl max-w-lg mx-auto md:mx-0">
-                        {tagline}
+                        Designing scalable, resilient, and cloud-native distributed systems for high-growth enterprises.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center md:justify-start">

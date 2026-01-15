@@ -14,7 +14,7 @@ export default function Header() {
             href={"/"}
             className="text-xl font-bold tracking-tight uppercase hover:text-[rgb(var(--txt-link))] transition-colors"
           >
-            Richard Acquaye
+            Aaron Azadi
             <span className="text-[rgb(var(--txt-link))]">.</span>
           </Link>
         </div>

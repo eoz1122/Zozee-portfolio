@@ -15,10 +15,10 @@ export default function About({ content, imageSrc }: AboutProps) {
         <section className="col-span-full py-24" id="about">
             <div className="responsive-wrapper flex flex-col items-center text-center">
                 <h2 className="text-3xl md:text-5xl font-bold text-[rgb(var(--txt-heading))] mb-2">
-                    Problem solver <span className="text-[rgb(var(--txt-heading))]">&lt;coder&gt;</span>
+                    Solutions <span className="text-[rgb(var(--txt-heading))]">&lt;Architect&gt;</span>
                 </h2>
                 <p className="text-[rgb(var(--txt-body))] mb-16 text-lg">
-                    Frontend Developer with over 3 years of experience.
+                    System Architect with over 10 years of experience in distributed systems.
                 </p>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center text-left">
@@ -28,9 +28,9 @@ export default function About({ content, imageSrc }: AboutProps) {
                         <div className="flex gap-4">
                             <FiCheckSquare className="text-4xl text-[rgb(var(--color-primary))] flex-shrink-0 mt-1" />
                             <div>
-                                <h4 className="text-xl font-bold text-[rgb(var(--txt-heading))] mb-2">Master of Science in IT.</h4>
+                                <h4 className="text-xl font-bold text-[rgb(var(--txt-heading))] mb-2">Expert in Distributed Systems.</h4>
                                 <p className="text-[rgb(var(--txt-body))] leading-relaxed">
-                                    Graduated on FON University as a Master of Information Systems & Technologies.
+                                    Designing fault-tolerant, high-availability architectures that scale globally.
                                 </p>
                             </div>
                         </div>
@@ -38,9 +38,9 @@ export default function About({ content, imageSrc }: AboutProps) {
                         <div className="flex gap-4">
                             <FiCheckSquare className="text-4xl text-[rgb(var(--color-primary))] flex-shrink-0 mt-1" />
                             <div>
-                                <h4 className="text-xl font-bold text-[rgb(var(--txt-heading))] mb-2">Specializing in React & Next.js.</h4>
+                                <h4 className="text-xl font-bold text-[rgb(var(--txt-heading))] mb-2">Specializing in Cloud Native.</h4>
                                 <p className="text-[rgb(var(--txt-body))] leading-relaxed">
-                                    I am constantly working on learning new technologies & following industry trends.
+                                    Deep expertise in Kubernetes, AWS, and serverless infrastructure.
                                 </p>
                             </div>
                         </div>
@@ -48,9 +48,9 @@ export default function About({ content, imageSrc }: AboutProps) {
                         <div className="flex gap-4">
                             <FiCheckSquare className="text-4xl text-[rgb(var(--color-primary))] flex-shrink-0 mt-1" />
                             <div>
-                                <h4 className="text-xl font-bold text-[rgb(var(--txt-heading))] mb-2">Love working in team.</h4>
+                                <h4 className="text-xl font-bold text-[rgb(var(--txt-heading))] mb-2">Engineering Leadership.</h4>
                                 <p className="text-[rgb(var(--txt-body))] leading-relaxed">
-                                    I enjoy working in a team environment, but I can also work independently.
+                                    Mentoring teams and defining technical strategy for complex projects.
                                 </p>
                             </div>
                         </div>
