@@ -15,10 +15,13 @@ export default function ProjectThumbnail({
   caseStudyUrl,
 }: ProjectThumbnailProps) {
   return (
-    <article className="group flex flex-col bg-[rgb(var(--container-fill))] rounded-2xl overflow-hidden border border-white/5 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-2xl hover:shadow-[rgb(var(--color-primary))]/20">
+    <div className="group relative w-full flex flex-col gap-4 bg-white/5 p-4 rounded-2xl border border-white/10 overflow-hidden hover:border-[rgb(var(--color-primary))]/50 transition-all duration-500 hover:shadow-[0_0_30px_-10px_rgba(var(--color-primary),0.3)] hover:-translate-y-2">
+
+      {/* Divine Glow Gradient on Hover */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[rgb(var(--color-primary))]/0 to-purple-900/0 group-hover:from-[rgb(var(--color-primary))]/10 group-hover:to-purple-900/20 transition-all duration-700 pointer-events-none" />
 
       {/* Image Section */}
-      <Link href={`/projects/${caseStudyUrl}`} className="relative aspect-video overflow-hidden bg-gray-800">
+      <Link href={liveUrl || (caseStudyUrl === "novara" ? "#" : `/projects/${caseStudyUrl}`)} className="relative aspect-video overflow-hidden bg-gray-900 rounded-xl" target={liveUrl ? "_blank" : "_self"}>
         <Image
           src={
             // @ts-ignore

@@ -27,14 +27,20 @@ export default function Hero({ heading, tagline }: HeroProps) {
                         <span className="block mt-4 text-lg opacity-70 italic">- Inspired by Aaron Swartz.</span>
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-6 mt-6 justify-center md:justify-start">
-                        <Button href="#projects" className="px-8 py-4 text-lg">
+                    {/* Cosmic Background Element */}
+                    <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+                        <div className="absolute top-[-20%] right-[-10%] w-[600px] h-[600px] rounded-full bg-[rgb(var(--color-primary))]/20 blur-[120px] animate-pulse" />
+                        <div className="absolute bottom-[-20%] left-[-10%] w-[500px] h-[500px] rounded-full bg-purple-900/20 blur-[100px] animate-pulse delay-1000" />
+                    </div>
+
+                    <div className="flex flex-col sm:flex-row gap-6 mt-6 justify-center md:justify-start relative z-10">
+                        <Button href="#projects" className="px-8 py-4 text-lg shadow-[0_0_20px_-5px_rgba(var(--color-primary),0.5)] hover:shadow-[0_0_30px_-5px_rgba(var(--color-primary),0.8)] transition-all duration-500 bg-[rgb(var(--color-primary))] text-white border-none hover:scale-105">
                             Witness the Work
                         </Button>
                         <Button
                             href="mailto:contact@aaronazadi.com"
                             btnType="secondary"
-                            className="px-8 py-4 text-lg"
+                            className="px-8 py-4 text-lg border-white/20 hover:border-[rgb(var(--color-primary))]/50 hover:bg-[rgb(var(--color-primary))]/10 backdrop-blur-md transition-all duration-500"
                         >
                             Consult the Oracle
                         </Button>
